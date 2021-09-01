@@ -1,7 +1,7 @@
 import re
 
 def banner():
-    ''' Dispaly program name'''
+    ''' Dispaly program name, using stars'''
     message = 'Awesome camelcase program'
     stars = '*' * len(message)
     print(f'\n{stars} \n{message} \n{stars}')
@@ -11,6 +11,7 @@ def instructions():
 
 banner()
 instructions()
+'''Display instructions'''
 
 to_check = True
 while  to_check:
