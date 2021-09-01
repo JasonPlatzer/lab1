@@ -6,7 +6,11 @@ def banner():
     stars = '*' * len(message)
     print(f'\n{stars} \n{message} \n{stars}')
 
+def instructions():
+    print('Enter a sentence and program will convert it to camelcase.')
+
 banner()
+instructions()
 
 to_check = True
 while  to_check:
