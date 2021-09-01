@@ -1,4 +1,13 @@
 import re
+
+def banner():
+    ''' Dispaly program name'''
+    message = 'Awesome camelcase program'
+    stars = '*' * len(message)
+    print(f'\n{stars} \n{message} \n{stars}')
+
+banner()
+
 to_check = True
 while  to_check:
     sentence = str(input("Enter a sentence use only letters "))
