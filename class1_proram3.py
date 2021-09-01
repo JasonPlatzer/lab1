@@ -1,5 +1,8 @@
 import re
 
+
+
+'''Camelcase converter program'''
 def banner():
     ''' Dispaly program name, using stars'''
     message = 'Awesome camelcase program'
